@@ -8,6 +8,7 @@ body {
   background-color: #ffffff;
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 20px;
+  line-height: 25px;
   font-weight: 700;
   color: #333333;
 }
@@ -115,6 +116,7 @@ header {
   justify-content: center;
   margin: 0 auto 40px auto;
   font-family: 'Lora', serif;
+  line-height: 26px;
 }
 
 .grid-3-cols {
