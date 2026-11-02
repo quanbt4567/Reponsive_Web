@@ -13,10 +13,11 @@ body {
 }
 
 .container {
-  max-width: 1366px;
+  max-width: 1200px;
+  width: calc(100% - 30px);
   margin: 0 auto;
-  padding-left: 83px;
-  padding-right: 83px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 header {
@@ -187,8 +188,11 @@ footer {
 
 @media (max-width: 992px) {
   .container {
-    padding-left: 136px;
-    padding-right: 136px;
+    max-width: 720px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .logo {
@@ -252,8 +256,11 @@ footer {
 
 @media (max-width: 576px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 546px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .logo {
